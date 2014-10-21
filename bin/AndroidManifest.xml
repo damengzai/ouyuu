@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ma.ouyuu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:name=".util.Constant"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- 填写用户信息 -->
+        <activity
+            android:name="com.ma.ouyuu.main.SplashActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 测试action bar用的子页面 -->
+        <activity
+            android:name=".main.ChildActivity"
+            android:parentActivityName=".main.EnterMsgActivity"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <!-- 填写用户信息页面 -->
+        <activity
+            android:name="com.ma.ouyuu.main.EnterMsgActivity"
+            android:parentActivityName=".main.EnterMsgActivity"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <!-- 登录页面 -->
+        <activity
+            android:name="com.ma.ouyuu.main.LoginActivity"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+
+        <!-- 添加路线页面 -->
+        <activity
+            android:name="com.ma.ouyuu.main.AddPathActivity"
+            android:parentActivityName="com.ma.ouyuu.main.MyPathActivity"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+
+        <!-- 我的路线 -->
+        <activity
+            android:name="com.ma.ouyuu.main.MyPathActivity"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <!-- 走相同路线的人 -->
+        <activity
+            android:name="com.ma.ouyuu.main.SameRoadPeopleListActivity"
+            android:parentActivityName="com.ma.ouyuu.main.MyPathActivity"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <!-- 路人的信息 -->
+        <activity
+            android:name="com.ma.ouyuu.main.SameRoadPeopleDetialActivity"
+            android:parentActivityName="com.ma.ouyuu.SameRoadPeopleListActivity"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <!-- 路线详细信息 -->
+        <activity
+            android:name="com.ma.ouyuu.main.PathDetialActivity"
+            android:parentActivityName="com.ma.ouyuu.main.MyPathActivity"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Ouyuu</string>
+    <string name="enter_name_text">请输入名字</string>
+    <string name="enter_password_text">请输入密码</string>
+    <string name="enter_start_place_text">请输入出发地</string>
+    <string name="enter_start_time_text">输入出发时间</string>
+    <string name="submit_text">提交</string>
+    <string name="login_text">登录</string>
+    <string name="reg_text">注册</string>
+    <string name="search_txt">搜索</string>
+    <string name="setting_txt">设置</string>
+    <string name="not_nessary_text">以下非必填</string>
+    <string name="input_age_text">输入年龄</string>
+    <string name="input_qq_num_text">输入QQ号</string>
+    <string name="input_weibo_num_text">输入微博帐号</string>
+    <string name="enter_trans_path">添加换乘路线</string>
+    <string name="upload_path">上传路线</string>
+    <string name="add_text">添加</string>
+    <string name="description"></string>
+
+    <string-array name="sex_array">
+        <item>请选择性别</item>
+        <item>女</item>
+        <item>男</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="travel_way_array">
+        <item>请选择出行方式</item>
+        <item>自驾</item>
+        <item>地铁</item>
+        <item>公交</item>
+        <item>其他</item>
+    </string-array>
+        <string name="see_same_path_people_txt">查看这一段同路人</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item_one_path_start_place_text"
+        style="@style/text_value_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_start_place_text" />
+
+    <TextView
+        android:id="@+id/item_one_path_start_time_text"
+        style="@style/text_value_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_start_time_text" />
+     <TextView
+        android:id="@+id/item_one_path_end_place_text"
+        style="@style/text_value_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_start_place_text" />
+
+    <TextView
+        android:id="@+id/item_one_path_travel_way_text"
+        style="@style/text_value_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
